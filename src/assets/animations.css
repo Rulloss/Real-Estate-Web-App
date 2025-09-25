@@ -1,0 +1,34 @@
+.autoShow{
+    animation: autoShowAnimation 0.8s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    transition: scale 1s ease-in-out;
+}
+@keyframes autoShowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+
+    }
+}
+
+.scrollShow{
+    animation: scrollShowAnimation both;
+    transition: opacity 1s ease-in-out;
+    transition: scale 1s ease-in-out;
+    animation-timeline: view(85% 5%);
+}
+@keyframes scrollShowAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.9);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0) scale(1);
+
+    }
+}
