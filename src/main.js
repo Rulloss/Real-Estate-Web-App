@@ -5,14 +5,12 @@ import App from './Home.vue'
 import HomeContent from './components/HomeContent.vue'
 import rooms from './pages/rooms.vue'
 import Connect from './pages/connect.vue'
-import gallery from './pages/gallery.vue'
 import reservation from './pages/reservation.vue'
 
 // Router yapılandırması
 const routes = [
   { path: '/', component: HomeContent },
   { path: '/rooms', component: rooms },
-  { path: '/gallery', component: gallery },
   { path: '/reservation', component: reservation },
   { path: '/connect', component: Connect },
 ]

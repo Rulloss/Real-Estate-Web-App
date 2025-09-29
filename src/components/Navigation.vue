@@ -93,7 +93,6 @@ const isOpen = ref(false);
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/rooms", label: "Rooms" },
-  { href: "/gallery", label: "Gallery" },
   { href: "/reservation", label: "Reservation" },
   { href: "/connect", label: "Contact" },
 ];
