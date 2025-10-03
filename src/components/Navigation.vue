@@ -4,7 +4,7 @@
       <div class="nav-content">
         <div class="logo-section">
           <router-link to="/" @click="scrollToTop" class="logo-link">
-            <img src="/src/assets/logo.svg" alt="Hotel Logo" class="logo-image" />
+            <img src="/logo.svg" alt="Hotel Logo" class="logo-image" />
           </router-link>
         </div>
 
@@ -14,7 +14,7 @@
             <router-link
               v-for="item in navItems"
               :key="item.href"
-              :to="item.href"
+              :to="item.href"s
               class="nav-link"
               :class="{ active: $route.path === item.href }"
               @click="scrollToTop"

@@ -108,41 +108,41 @@ export default {
           title: "Rooftop Restaurant",
           description:
             "Modern interpretations of Ottoman cuisine in our multi-story restaurant with Bosphorus view",
-          icon: "src/assets/icons/lunch.png",
+          icon: "/icons/lunch.png",
         },
         {
           id: 2,
           title: "Spa & Thermal",
           description:
             "Deep relaxation with traditional Turkish bath and modern spa services",
-          icon: "src/assets/icons/water-waves.png",
+          icon: "/icons/water-waves.png",
         },
         {
           id: 3,
           title: "Meeting Rooms",
           description:
             "Modern equipped halls for business meetings and special events",
-          icon: "src/assets/icons/round-table.png",
+          icon: "/icons/round-table.png",
         },
         {
           id: 4,
           title: "Valet Service",
           description:
             "24/7 valet parking service and airport transfer organization",
-          icon: "/src/assets/icons/car.png",
+          icon: "/icons/car.png",
         },
         {
           id: 5,
           title: "Fitness Center",
           description: "Private fitness area equipped with modern equipment",
-          icon: "src/assets/icons/gym.png",
+          icon: "/icons/gym.png",
         },
         {
           id: 6,
           title: "Concierge",
           description:
             "24/7 concierge service with city guidance and reservation support",
-          icon: "src/assets/icons/headphones.png",
+          icon: "/icons/headphones.png",
         },
       ],
       additionalServices: [
@@ -150,25 +150,25 @@ export default {
           id: 1,
           title: "Free WiFi",
           description: "Throughout the hotel",
-          icon: "/src/assets/icons/wi-fi.png",
+          icon: "/icons/wi-fi.png",
         },
         {
           id: 2,
           title: "Security",
           description: "24/7 security",
-          icon: "src/assets/icons/security.png",
+          icon: "/icons/security.png",
         },
         {
           id: 3,
           title: "Reception",
           description: "24 hours open",
-          icon: "src/assets/icons/clock.png",
+          icon: "/icons/clock.png",
         },
         {
           id: 4,
           title: "Airport",
           description: "45 minutes away",
-          icon: "src/assets/icons/plane.png",
+          icon: "/icons/plane.png",
         },
       ],
     };
